@@ -1,12 +1,58 @@
-## Welcome to GitHub Pages
+## Tunacoder Featured Codes
+I post my projects and preview of my sites here. I wrote some web development before and a lot of PHP. Now I write Python, Ruby and Golang. Pls. enjoy browsing my codes.
 
-You can use the [editor on GitHub](https://github.com/carlamissiona/home/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Workclever in Django
 
-### Markdown
+[Visit The Site](https://worktrack.pythonanywhere.com/) on Pythonanywhere
+
+![wrcklv](https://user-images.githubusercontent.com/1997542/185055395-4ad15ef5-9ab4-42dc-baa9-7502644d7cbe.png)
+
+
+   ```
+   # Configuring DJango Models
+    class Company(models.Model):
+      name = models.TextField(default='Company')
+      date_modified = models.DateTimeField(auto_now_add=True)
+      date_added = models.DateTimeField(auto_now_add=True)
+      
+   ```
+It's easy to start a Django site. It will take time to configure it but everything will be easy since Django gives admin site with just a few configuration and a backend for your API.
+
+
+```
+from django.urls import include, path
+from rest_framework import routers
+
+from . import views 
+
+router = routers.DefaultRouter()
+router.register(r'company', views.CompanyViewSet)
+
+# Wire up our API using automatic URL routing.
+# Additionally, we include login URLs for the browsable API.
+urlpatterns = [
+    path('rest/', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
+] 
+```
+## Worktrack Features
+- Job search
+- Seeker applications
+- Admin Configuration of Resume Template
+
+## Ongoing work
+1. Job seeker resume form
+2. Company Who'll likely to hire
+
+
+For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+### Jekyll Themes
+) and ![Image](src)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ```markdown
 Syntax highlighted code block
@@ -29,9 +75,3 @@ Syntax highlighted code block
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/carlamissiona/home/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
