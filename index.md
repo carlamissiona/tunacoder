@@ -58,5 +58,5 @@ Mixtapes is an online site which takes videos from vimeo api. The videos are hid
 
 
 
-                                                                                                                  [Golang Sites](https://carlamissiona.github.io/home/golang)
+**[Golang Sites](https://carlamissiona.github.io/home/golang)**
 
