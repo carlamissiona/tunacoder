@@ -1,6 +1,6 @@
 ## Golang Sites 
 
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Next Page Python Sites](https://carlamissiona.github.io/home/python) 
+### &nbsp;[Next Page Python Sites](https://carlamissiona.github.io/home/python) 
 
 ### Golang Sites with Nasa Images API & Templating 
 ![image](https://user-images.githubusercontent.com/1997542/185062705-52ec0e72-3386-4f60-b174-3eb2e214d230.png)
