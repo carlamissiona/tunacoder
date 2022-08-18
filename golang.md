@@ -49,7 +49,7 @@ In this static SInatra site I blog about my portfolio and other notes.[You can v
 ![site01](https://user-images.githubusercontent.com/1997542/185062427-4e83733a-8695-4659-90b7-16a1c71caffd.png)
 
 **API** 
-This site is API hooked on it. Ruby managed to complete the traditional crud for the API data model
+This site has API hooked on it. Ruby managed to complete the traditional crud for the API data model
 ```
 https://radiobuddy.carlamissiona.repl.co/api/price/1
 
