@@ -57,7 +57,15 @@ Mixtapes is an online site which takes videos from vimeo api. The videos are hid
 ![django02](https://user-images.githubusercontent.com/1997542/185058999-45471d4d-75ec-4189-83d2-368d1d185ecf.png)
 
 
+## Rust Warp Website
+This code is deployed on gitpod. I got some error on my main code that sidetracked my progress. The editor I m using failed to save. But the code for Warp framework is still simple enought to follow by beginner rust devs.
+
+![image](https://user-images.githubusercontent.com/1997542/185795767-3a4f5ce4-0a40-44c4-8cd2-1bad3d57b026.png)
+
+My code managed to give a route and a static file serve on the get endpoint /static. Warp is overall good minimalist framework although it requires a full feature of tokio.
+![image](https://user-images.githubusercontent.com/1997542/185795855-b9dec774-8075-4807-b2f9-7b640edaf6bd.png)
 
 
 **[Golang Sites](https://carlamissiona.github.io/tunacoder/golang)**
+
 
