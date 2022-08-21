@@ -62,8 +62,9 @@ This code is deployed on gitpod. I got some error on my main code that sidetrack
 
 ![image](https://user-images.githubusercontent.com/1997542/185795767-3a4f5ce4-0a40-44c4-8cd2-1bad3d57b026.png)
 
-My code managed to give a route and a static file serve on the get endpoint /static. Warp is overall good minimalist framework although it requires a full feature of tokio.
-![image](https://user-images.githubusercontent.com/1997542/185795855-b9dec774-8075-4807-b2f9-7b640edaf6bd.png)
+My code managed to give a route with json return and a static file serve on the get endpoint /static. Warp is overall good minimalist framework although it requires a full feature of tokio.
+
+![image](https://user-images.githubusercontent.com/1997542/185803364-3e95002d-924f-4410-9239-60ab0e897d6c.png)
 
 
 **[Golang Sites](https://carlamissiona.github.io/tunacoder/golang)**
