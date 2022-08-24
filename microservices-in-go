@@ -7,8 +7,14 @@ So I took a close look into Go-zero  and the more popular and complex Go-kit.
 
 
 
-**I created simple services**
+**I created this simple services in Go micro**
 
 ### Grocery API 
-- ListGrocery
+- GreetingFromGrocerStaff
 - GetGroceryList
+
+First you have to install the go-micro cli and having done that it will instruct you to add its dependencies. Then in your local directory add a folder for a project. The microservice that I made
+simply has a 2 different call. This means I have only one service for 2 different method. You could do different strategy from this. You could also add more advance and crazy features of go-micro  
+as adding its own broker, tracing hosts for each service.
+
+
