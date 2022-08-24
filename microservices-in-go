@@ -1,0 +1,14 @@
+## Golang Microservices
+These days I studied more about frameworks used in microservice specifically in Golang. I think Go giving a good ease in coding simply makes an excellent platform for microservice
+development. There are in fact a lot of tools in go that makes coding easier with code generation and frameworks that easily build production ready microservices thru enforcing their 
+own programming practices. Go being close to hardware and its native functionality also makes efficient tools for a microservice lower level technologies like transport layer.
+
+So I took a close look into Go-zero  and the more popular and complex Go-kit.
+
+
+
+**I created simple services**
+
+### Grocery API 
+- ListGrocery
+- GetGroceryList
