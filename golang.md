@@ -67,6 +67,4 @@ Rails.application.routes.draw do
 
 
 
-```
-[Python Sites](https://carlamissiona.github.io/tunacoder/python) 
-```
+##[Python Sites](https://carlamissiona.github.io/tunacoder/python) 
